@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Remover Fundo de Imagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Remover Fundo de Imagem</h1>
+  
+  <input type="file" id="imageInput" accept="image/*">
+  <button onclick="removeBackground()">Remover Fundo</button>
+  
+  <div class="images">
+    <div>
+      <h3>Original</h3>
+      <img id="originalImage" src="" alt="">
+    </div>
+    <div>
+      <h3>Sem Fundo</h3>
+      <img id="outputImage" src="" alt="">
+    </div>
+  </div>
+
+  <footer>
+  Desenvolvido por <a href="https://github.com/LucasGeraldi" target="_blank" rel="noopener noreferrer">Lucas Geraldi</a>
+</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
